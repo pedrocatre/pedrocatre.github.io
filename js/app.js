@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone","router","animationUtils"],function(e,t,n,r,i){var s=function(){r.initialize()};return{initialize:s}});
