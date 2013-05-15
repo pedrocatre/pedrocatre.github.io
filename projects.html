@@ -19,11 +19,12 @@
     </script>
     <script type="text/javascript">
 
-        var _gaq = _gaq || [];
+        window._gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-40755985-1']);
         var pluginUrl =
                 '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
         _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setDomainName','github.io']);
         _gaq.push(['_trackPageview']);
 
         (function() {
