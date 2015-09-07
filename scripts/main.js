@@ -1,0 +1,1 @@
+!function(){"use strict";ga("send","event","button","click","learn-more"),ga("send","pageview","##professionalExperience"),$(".learn-more-button").on("click",function(){$(this).hide(),$(".learn-more-content").fadeIn(300)}),$('a[data-toggle="tab"]').on("shown.bs.tab",function(e){ga("send","pageview",$(e.target).attr("href"))})}();
