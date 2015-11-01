@@ -1,4 +1,4 @@
-pedrocatre.github.io
+http://www.pedrocatre.com/
 ====================
 
 My personal website.
